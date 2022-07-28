@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    top: 0;
+    position: sticky;
+    z-index: 2000;
+    height: 3em;
+    border: 2px solid black;
+}
+
+.header__left{
+    flex: 0.4;
+}
+
+.header__left > i{
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 1px;
+    padding: 20px 0;
+}
+
+.header__left > h1 > span{
+    color: #f64c08;
+}
